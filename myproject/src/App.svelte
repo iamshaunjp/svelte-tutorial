@@ -9,12 +9,25 @@
     people = people.filter(person => person.id != id);
     console.log(e);
   };
+
+  let num = 5;
 </script>
+
+{#if num > 20}
+  <p>Greater than 20</p>
+{:else if num > 5}
+  <p>Greater than 5</p>
+{:else}
+  <p>Not greater than 5</p>
+{/if}
 
 <main>
   {#each people as person (person.id)}
     <div>
       <h4>{person.name}</h4>
+      {#if person.beltColour === 'black'}
+        <p><strong>MASTER NINJA</strong></p>
+      {/if}
       <p>{person.age} years old, {person.beltColour} belt.</p>
       <button on:click={(e) => handleClick(e, person.id)}>delete</button>
     </div>
