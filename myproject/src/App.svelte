@@ -1,10 +1,16 @@
 <script>
-	export let name;
+	let name = 'Yoshi';
+  let beltColour = 'black';
+
+  const handleClick = () => {
+    beltColour = 'orange';
+  };
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Hello, Ninjas!</p>
+	<h1>{name}</h1>
+	<p>{beltColour} belt</p>
+  <button on:click={handleClick}>update belt colour</button>
 </main>
 
 <style>
