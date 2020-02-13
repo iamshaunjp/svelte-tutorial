@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="734" height="430" viewBox="0 0 734 430">
+  <defs>
+    <clipPath id="clip-poll_ninja_logo">
+      <rect width="734" height="430"/>
+    </clipPath>
+  </defs>
+  <g id="poll_ninja_logo" clip-path="url(#clip-poll_ninja_logo)">
+    <path id="Path_20" data-name="Path 20" d="M0,412.5Z"/>
+    <g id="Group_6" data-name="Group 6" transform="translate(171.724 28.466)">
+      <g id="Group_4" data-name="Group 4" transform="translate(0 0)">
+        <path id="Path_13" data-name="Path 13" d="M3390.462-1123.4s-105.041,42.276-103.25,131.727,20.087,20.661,20.087,20.661,28.427-93.249,93.583-87.6c.6-.3-9.362-12.486-11.967-28.682S3390.462-1123.4,3390.462-1123.4Z" transform="translate(-2956.318 1123.4)" fill="#d91b42"/>
+        <path id="Path_16" data-name="Path 16" d="M111.075,167.821S-2.969,111.989.059,38.066,18.14,20.658,18.14,20.658s23.6,76.55,81.255,70.784c.524.24-11.975,13.395-9.055,32.489S111.075,167.821,111.075,167.821Z" transform="translate(318.163 159.795) rotate(-60)" fill="#d91b42"/>
+        <path id="Path_17" data-name="Path 17" d="M18.241,0C38.4.685,36.465,22.939,36.465,22.939H.017S-1.922-.676,18.241,0Z" transform="translate(77.95 228.957)" fill="#2d2d2d"/>
+        <path id="Path_12" data-name="Path 12" d="M2485.982-810.752h33.38s6.7-99.073,154.006-99.073,152.569,99.073,152.569,99.073h36.016s.445-194.474-188.584-195.911S2485.982-810.752,2485.982-810.752Z" transform="translate(-2485.981 1062.803)" fill="#2d2d2d"/>
+        <path id="Path_18" data-name="Path 18" d="M15.184,0c16.79.567,15.175,19.1,15.175,19.1H.008S-1.606-.564,15.184,0Z" transform="translate(266.796 232.796)" fill="#fff"/>
+        <path id="Path_19" data-name="Path 19" d="M18.241,0C38.4.685,36.465,22.939,36.465,22.939H.017S-1.922-.676,18.241,0Z" transform="translate(263.424 228.957)" fill="#2d2d2d"/>
+      </g>
+    </g>
+    <text id="POLL_NINJA" data-name="POLL NINJA" transform="translate(356.858 379.022)" fill="#2d2d2d" font-size="80" font-family="Poppins-Bold, Poppins" font-weight="700" letter-spacing="0.2em"><tspan x="-299.6" y="0">POLL NINJA</tspan></text>
+  </g>
+</svg>
