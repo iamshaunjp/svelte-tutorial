@@ -13,7 +13,7 @@
   };
 </script>
 
-<Modal />
+<Modal message='Hello, Ninjas!' isPromo={true} />
 <main>
   {#each people as person (person.id)}
     <div>
