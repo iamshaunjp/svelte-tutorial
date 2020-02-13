@@ -6,9 +6,6 @@
 {#if showModal}
   <div class="backdrop" class:promo={isPromo} on:click|self>
     <div class="modal">
-      <slot name="title">
-        <h3>Default Title</h3>
-      </slot>
       <slot></slot>
     </div>
   </div>
