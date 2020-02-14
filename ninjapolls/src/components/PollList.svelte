@@ -5,26 +5,26 @@
 
   let polls = [];
 
-  const unsub = PollStore.subscribe(data => {
-    console.log(data);
-    polls = data;
-  });
+  // const unsub = PollStore.subscribe(data => {
+  //   console.log(data);
+  //   polls = data;
+  // });
 
-  onMount(() => {
-    // maybe get data from a db
-    console.log('poll list component mounted');
-  });
+  // onMount(() => {
+  //   // maybe get data from a db
+  //   console.log('poll list component mounted');
+  // });
 
-  onDestroy(() => {
-    // unsub from store
-    console.log('poll list component destroyed');
-    unsub();
-  });
+  // onDestroy(() => {
+  //   // unsub from store
+  //   console.log('poll list component destroyed');
+  //   unsub();
+  // });
 
 </script>
 
 <div class="poll-list">
-  {#each polls as poll (poll.id)}
+  {#each $PollStore as poll (poll.id)}
     <div>
       <PollDetails {poll} on:vote />
     </div>
